@@ -48,14 +48,18 @@
 }
 .hero{
     display: grid;
-    grid-template-columns: 1.3fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5px;
     width: 100vw;
-    height: 89vh;
+    height: 87vh;
     color: white;
 }
 .img{
-    background: url(cutout.jpeg);
-    background-size: cover;
+    background: url(c.png);
+    background-position:center;
+      /* background-size: cover; */
+      background-size: contain;
+    padding: 10px;
     background-repeat: no-repeat;
 }
 
