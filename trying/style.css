@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.125rem;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-top: 1em;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: 30vh;
+}
+.columns{
+    display: flex;
+    margin: 1em 1em;
+    align-items: flex-start;
+}
+.col{
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.col h2{
+    margin-bottom: 1em;
+}
+.col-bg{
+    background: rgb(88, 21, 21);
+    color: white;
+}
+.col-1{
+    width: 25%;
+}
+.col-2{
+    width: 50%;
+}
+.col-3{
+    width: 75%;
+}
