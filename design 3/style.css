@@ -110,9 +110,44 @@
 	cursor: pointer;
 }
 
+.reviews {
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 90vh;
+	background-color: #ff4255;
+	margin: 1em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+.r-img {
+	background: url(images/test.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.r-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 1em 2em;
+	align-items: center;
+}
+.h-wrap {
+	margin-bottom: 0.5em;
+}
+.para-wrap p {
+	font-weight: 300;
+}
+
 @media screen and (max-width: 665px) {
 	.hero {
 		height: 60vh;
+	}
+	.reviews {
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr;
 	}
 }
 
