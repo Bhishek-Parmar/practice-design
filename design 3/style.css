@@ -22,11 +22,13 @@
 }
 .cards-container {
 	width: 100%;
+	padding: 0 5%;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 .card {
+	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
 	/* background-color: red; */
@@ -50,7 +52,7 @@
 
 .btn-wrapper {
 	width: 100%;
-    margin: 0.2rem 0;
+	margin: 0.2rem 0;
 	padding: 0.3rem 0;
 	display: grid;
 	place-items: center;
@@ -67,11 +69,11 @@
 	width: 200px;
 	padding: 1%;
 	font-size: 1rem;
-    transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
-.btn:hover{
-    background-color: white;
-	color: #ff4255; 
-    transform: translateY(-5px);
-    cursor: pointer;
+.btn:hover {
+	background-color: white;
+	color: #ff4255;
+	transform: translateY(-5px);
+	cursor: pointer;
 }
