@@ -64,6 +64,7 @@
 }
 .card:hover {
 	background-color: #ff4255;
+	color: white;
 	transform: translateY(-10px);
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
@@ -75,7 +76,7 @@
 }
 .card-para {
 	width: 60%;
-	color: rgba(0, 0, 0, 0.7);
+	/* color: rgba(0, 0, 0, 0.7); */
 	text-align: center;
 }
 
