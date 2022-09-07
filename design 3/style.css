@@ -110,7 +110,7 @@
 	cursor: pointer;
 }
 
-@media screen and (max-width: 771px) {
+@media screen and (max-width: 665px) {
 	.hero {
 		height: 60vh;
 	}
