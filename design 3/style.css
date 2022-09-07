@@ -15,12 +15,12 @@
 	color: white;
 }
 .hero-welcome {
-	height: 85%;
+	height: 65%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	text-align: center;
 }
 
@@ -82,7 +82,7 @@
 	background-color: #ff4255;
 	color: white;
 	width: 200px;
-	padding: 1%;
+	padding: 1em;
 	font-size: 1rem;
 	transition: all 0.2s ease-in-out;
 }
@@ -95,7 +95,7 @@
 
 @media screen and (max-width: 771px) {
 	.hero {
-		height: 50vh;
+		height: 60vh;
 	}
 }
 
@@ -116,7 +116,8 @@
 }
 
 .logo {
-	font-size: x-large;
+	font-size: larger;
+	font-weight: bolder;
 }
 
 .menu {
