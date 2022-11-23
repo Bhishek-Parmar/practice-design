@@ -18,6 +18,18 @@
 }
 .hero-img {
   width: 100%;
+  animation: fly 5s infinite;
+}
+@keyframes fly {
+  0% {
+    transform: translateY(0);
+  }
+  45% {
+    transform: translateY(-26px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .hero-txt {
   color: #333;
