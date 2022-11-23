@@ -39,3 +39,34 @@
 .container {
   background-color: #111;
 }
+.name-container {
+  overflow: hidden;
+  height: 100vh;
+  background-color: #4b0908;
+}
+.name {
+  color: #fbca03;
+  cursor: default;
+  font-family: "Audiowide", cursive;
+  font-size: 20vh;
+  text-align: center;
+  line-height: 100vh;
+  transition: all ease;
+}
+.title-container {
+  height: 100vh;
+  /* background-color: black; */
+}
+.dark {
+  background: url("./img/bg1.png");
+  background-size: cover;
+}
+.light {
+  background: rebeccapurple url("./img/bg2.png");
+}
+.title {
+  font-size: 8vw;
+  color: #fbca03;
+  line-height: 100vh;
+  cursor: default;
+}
