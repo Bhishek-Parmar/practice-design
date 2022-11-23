@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Secular One", sans-serif;
+}
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero-txt-container {
+  flex: 2.5;
+  cursor: default;
+}
+.hero-img-container {
+  flex: 1;
+}
+.hero-img {
+  width: 100%;
+}
+.hero-txt {
+  color: #333;
+  font-size: 60vw;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  background-color: #111;
+}
